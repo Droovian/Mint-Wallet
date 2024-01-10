@@ -23,9 +23,6 @@ const Expense = () => {
             Amount: amount,
             type: type,
         });
-
-        setDescription("");
-        setAmount("");
     };
 
     const signUserOut = async () => {
